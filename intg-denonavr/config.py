@@ -49,6 +49,7 @@ class AvrDevice:
     update_audyssey: bool
     zone2: bool
     zone3: bool
+    volume_step: float
 
 
 class _EnhancedJSONEncoder(json.JSONEncoder):
